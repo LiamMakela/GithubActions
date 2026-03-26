@@ -29,7 +29,7 @@ public class Addition
 	[TestMethod]
 	public void TestAdd()
 	{
-		Assert.AreEqual(999, Program.Add("2", "3"));
+		Assert.AreEqual(5, Program.Add("2", "3"));
 		Assert.AreEqual(0, Program.Add("-2", "2"));
 	}
 	[TestMethod]
